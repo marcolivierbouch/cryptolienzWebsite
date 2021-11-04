@@ -1,0 +1,1 @@
+grep -qxF 'globalThis.Buffer = Buffer' node_modules/buffer/index.js || sed "/'use strict'/a globalThis.Buffer = Buffer" -i.bak node_modules/buffer/index.js

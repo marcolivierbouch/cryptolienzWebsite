@@ -1,0 +1,172 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  background: rgb(239, 242, 255);
+  background: linear-gradient(rgba(255, 255, 255, 1),rgb(204, 204, 245) );
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+/* Fonts */
+/* TODO(mike): Clean up un-used fonts */
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-BoldItalic.woff2') format('woff2'),
+      url('/fonts/cool-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-Bold.woff2') format('woff2'),
+      url('/fonts/cool-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-Italic.woff2') format('woff2'),
+      url('/fonts/cool-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-ExtraBoldItalic.woff2') format('woff2'),
+      url('/fonts/cool-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-Medium.woff2') format('woff2'),
+      url('/fonts/cool-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool.woff2') format('woff2'),
+      url('/fonts/cool.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-MediumItalic.woff2') format('woff2'),
+      url('/fonts/cool-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac';
+  src: url('/fonts/cool-ExtraBold.woff2') format('woff2'),
+      url('/fonts/cool-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-ExtraBold.woff2') format('woff2'),
+      url('/fonts/coolPro-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-BoldItalic.woff2') format('woff2'),
+      url('/fonts/coolPro-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-BookItalic.woff2') format('woff2'),
+      url('/fonts/coolPro-BookItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-ExtraBoldItalic.woff2') format('woff2'),
+      url('/fonts/coolPro-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-Book.woff2') format('woff2'),
+      url('/fonts/coolPro-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-Bold.woff2') format('woff2'),
+      url('/fonts/coolPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-MediumItalic.woff2') format('woff2'),
+      url('/fonts/coolPro-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'P22 Mackinac Pro';
+  src: url('/fonts/coolPro-Medium.woff2') format('woff2'),
+      url('/fonts/coolPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} */
+
