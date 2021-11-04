@@ -3,7 +3,6 @@
   "scripts": {
     "website:start": "vite",
     "website:build_dev": "./build.sh && tsc && vite build --mode dev",
-    "website:build_prod": "./build.sh && tsc && vite build --mode prod",
     "website:serve": "vite preview"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
 import { AbiItem } from 'web3-utils'
 
 async function fetchAbi() {
-  const response = await fetch("https://cryptolienz-contract-abi.s3.amazonaws.com/CryptoLienzNFT.json")
+  const response = await fetch(import.meta.env.VITE_ABI_URL)
   const result = response.json()
   console.log(result)
 
@@ -13,7 +13,7 @@ export async function getContract() {
 
   const contract = new window.web3.eth.Contract(
       abi.abi as AbiItem[],
-      abi.networks[4].address
+      abi.networks[import.meta.env.VITE_ETH_NETWORK_ID].address
   )
 
   return contract
